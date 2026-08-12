@@ -584,16 +584,20 @@
       <div class="seal">
         <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <path id="ringPath" d="M 120,120 m -95,0 a 95,95 0 1,1 190,0 a 95,95 0 1,1 -190,0" />
+            <path id="topArc" d="M 20,120 A 100,100 0 0 1 220,120" />
+            <path id="bottomArc" d="M 20,120 A 100,100 0 0 0 220,120" />
           </defs>
           <circle cx="120" cy="120" r="112" fill="none" stroke="#a9803f" stroke-width="1.5"/>
           <circle cx="120" cy="120" r="96" fill="none" stroke="#a9803f" stroke-width="1"/>
           <circle cx="120" cy="120" r="70" fill="none" stroke="#16213e" stroke-width="1"/>
-          <text font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#7d5e2c" letter-spacing="3">
-            <textPath href="#ringPath" startOffset="2%">INGENIERO INDUSTRIAL · COLEGIADO Nº 3300 · VIGO ·</textPath>
+          <text font-family="IBM Plex Mono, monospace" font-size="10" fill="#7d5e2c" letter-spacing="2">
+            <textPath href="#topArc" startOffset="50%" text-anchor="middle">INGENIERO INDUSTRIAL</textPath>
+          </text>
+          <text font-family="IBM Plex Mono, monospace" font-size="10" fill="#7d5e2c" letter-spacing="2">
+            <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">COLEGIADO Nº3300 VIGO</textPath>
           </text>
           <text x="120" y="112" text-anchor="middle" font-family="Spectral, serif" font-size="22" font-weight="600" fill="#16213e">C.N.G.</text>
-          <text x="120" y="136" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5b6472" letter-spacing="1.5">PERITO JUDICIAL</text>
+          <text x="120" y="136" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5b6472" letter-spacing="1.5">PERITO INDUSTRIAL</text>
           <line x1="90" y1="148" x2="150" y2="148" stroke="#a9803f" stroke-width="1"/>
         </svg>
       </div>
